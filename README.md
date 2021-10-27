@@ -1,6 +1,6 @@
-[![Go Report Card](https://goreportcard.com/badge/plutov/paypal)](https://goreportcard.com/report/plutov/paypal)
-[![Build Status](https://travis-ci.org/plutov/paypal.svg?branch=master)](https://travis-ci.org/plutov/paypal)
-[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/plutov/paypal)
+[![Go Report Card](https://goreportcard.com/badge/bartek1912/paypal)](https://goreportcard.com/report/bartek1912/paypal)
+[![Build Status](https://travis-ci.org/bartek1912/paypal.svg?branch=master)](https://travis-ci.org/bartek1912/paypal)
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/bartek1912/paypal)
 
 # Go client for PayPal REST API
 
@@ -109,7 +109,7 @@ It is possible that some endpoints are missing in this Client, but you can use b
 ## Usage
 
 ```go
-import "github.com/plutov/paypal/v4"
+import "github.com/bartek1912/paypal/v4"
 
 // Create a client instance
 c, err := paypal.NewClient("clientID", "secretID", paypal.APIBaseSandBox)
@@ -381,7 +381,7 @@ c.ListWebhooks(paypal.AncorTypeApplication)
 Current contributors:
 
 - [Roopak Venkatakrishnan](https://github.com/roopakv)
-- [Alex Pliutau](https://github.com/plutov)
+- [Alex Pliutau](https://github.com/bartek1912)
 
 ## Tests
 

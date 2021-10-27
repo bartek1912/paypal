@@ -92,7 +92,7 @@ type (
 
 	// https://developer.paypal.com/docs/api/subscriptions/v1/#definition-payment_preferences_override
 	TaxesOverride struct {
-		Percentage string `json:"precentage,omitempty"`
+		Percentage string `json:"percentage,omitempty"`
 		Inclusive  *bool  `json:"inclusive,omitempty"`
 	}
 
